@@ -1,7 +1,14 @@
 @charset "UTF-8";
-/* CSS Document */
 @import url('html5doctor-reset.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Paytone+One|Sacramento');
+@import url('nav.css');
+@import url('typography.css');
+@font-face {
+	font-family: 'slow life';
+	src: url('../fonts/Slow Life.ttf') format('truetype')
+}
+
+/* CSS Document */
 
 /*
 font-family: 'Open Sans Condensed', sans-serif;
@@ -10,6 +17,9 @@ font-family: 'Paytone One', sans-serif;
 */
 body {
 	background-color: #9B4C4D;
+}
+
+header {min-height:60px;
 }
 
 h1 {
