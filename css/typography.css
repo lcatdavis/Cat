@@ -1,6 +1,39 @@
 /* CSS Document */
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 @font-face {
 	font-family: 'slow life';
 	src: url('../fonts/Slow Life.ttf') format('truetype');
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	font-family: 'slow life';
+	color: #f2f2f2;
+	font-size: 17px;
+}
+
+/*Change the color of links on hover*/
+.topnav a:hover {
+	background-color:#ddd;
+	color:black;
+}
+
+/* Add an active class to highlihgt the current page*/
+.active {
+	background-color:#0C1571;
+	color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens*/
+.topnav .icon {
+	display: none;
+}
+
+footer p{
+	text-align: center;
+	font-size: 8px;
+	padding: 20px;
+	
 }
